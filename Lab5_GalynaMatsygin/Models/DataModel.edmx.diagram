@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="95c2d397d109492b9ec48759cd7f255b" Name="Diagram1">
+        <EntityTypeShape EntityType="Models.Category" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Customer" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Pet" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Sale" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.SoldPet" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="Models.FK__Pet__CategoryId__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__SoldPet__Categor__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Sales__CustomerI__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK__Sales__PetId__2B3F6F97" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
